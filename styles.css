@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: white;
+    position: relative;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5c5c;
+}
+
+
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .menu-icon span {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+    }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: calc(100vh - 100px);
+    background-color: #f4f4f4;
+}
+
+.hero-text {
+    max-width: 600px;
+
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    color: #000;
+    position: absolute;
+    top: 150px;
+    left: 126px;
+}
+
+.hero-text h2 {
+    color: #ff3e3e;
+    font-size: 60px;
+    line-height: 1.2;
+    position: absolute;
+    top: 200px;
+    left: 292px;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    position: absolute;
+    top: 250px;
+    left: 162px;
+    width: 385px;
+    height: 110px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff3e3e;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 460px;
+    left: 250px;
+}
+
+.hero-image {
+    position: absolute;
+    width: 150px;
+    height: 170px;
+    top: 250px;
+    left: 900px;
+}
+
+.ecs1 {
+    position: absolute;
+    width: 324px;
+    height: 312px;
+    top: 120px;
+    left: 570px;
+}
+
+.ecs2 {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    top: 582px;
+    left: 851px;
+}
+
+.ecs4 {
+    position: absolute;
+    width: 324px;
+    height: 312px;
+    top: 320px;
+    left: -9px;
+}
+
+.hero-image {
+    position: absolute;
+    width: 150px;
+    height: 170px;
+    top: 250px;
+    left: 900px;
+}
